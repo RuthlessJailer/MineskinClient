@@ -4,8 +4,8 @@
 ![](https://img.shields.io/github/release/inventivetalentDev/MineskinClient.png)
 
 Synchronous Java Client for [api.mineskin.org](https://mineskin.org). This removes the
-yucky [SkinCallback](https://github.com/InventivetalentDev/MineskinClient/blob/master/src/main/java/org/mineskin/data/SkinCallback.java) class from [MineskinClient](https://github.
-com/InventivetalentDev/MineskinClient).
+yucky [SkinCallback](https://github.com/InventivetalentDev/MineskinClient/blob/master/src/main/java/org/mineskin/data/SkinCallback.java) class
+from [MineskinClient](https://github.com/InventivetalentDev/MineskinClient).
 
 Can be used to generate valid texture data from skin image files.  
 You can also use [this online tool](https://mineskin.org) to directly generate skin data from images.
