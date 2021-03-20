@@ -1,8 +1,8 @@
 package org.mineskin.test;
 
 import org.junit.Test;
-import org.mineskin.MineskinClient;
 import org.mineskin.SkinOptions;
+import org.mineskin.SyncMineskinClient;
 import org.mineskin.data.Skin;
 
 import javax.imageio.ImageIO;
@@ -17,7 +17,7 @@ import static org.junit.Assert.assertNotNull;
 
 public class GenerateTest {
 
-	private final MineskinClient client = new MineskinClient();
+	private final SyncMineskinClient client = new SyncMineskinClient();
 
 	@Test(timeout = 90000L)
 	public void urlTest() throws InterruptedException {

@@ -14,7 +14,7 @@ import java.util.UUID;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-public class MineskinClient {
+public class SyncMineskinClient {
 
 	private static final String ID_FORMAT     = "https://api.mineskin.org/get/id/%s";
 	private static final String URL_FORMAT    = "https://api.mineskin.org/generate/url?url=%s&%s";
@@ -28,11 +28,11 @@ public class MineskinClient {
 
 	private long nextRequest = 0;
 
-	public MineskinClient() {
+	public SyncMineskinClient() {
 		this("MineSkin-JavaClient");
 	}
 
-	public MineskinClient(final String userAgent) {
+	public SyncMineskinClient(final String userAgent) {
 		this.userAgent = checkNotNull(userAgent);
 	}
 
